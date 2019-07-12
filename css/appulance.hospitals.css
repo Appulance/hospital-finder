@@ -1,0 +1,28 @@
+#map {
+	top: 40px;
+}
+
+#hospital-info-body {
+	display: flex;
+	  flex-wrap: nowrap; /* [1] */
+  overflow-x: auto; /* [1] */
+	margin: 0; padding: 20px;
+}
+
+#location-info {
+	height: 215px;
+}
+
+.hospital-route {
+	flex: 0 0 auto;
+	width: 200px;
+	background-color: rgba(0,0,0, 0.05);
+	border: 1px solid rgba(0,0,0, 0.1);
+	margin-right: 20px;
+	padding: 20px;
+}
+
+.hospital-route h2 {
+	margin: 0;
+	color: #333;
+}

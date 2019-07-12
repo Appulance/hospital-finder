@@ -1,0 +1,224 @@
+body {
+	font: -apple-system;
+}
+
+.swiper-slide {
+  background: #1c1d1f;
+  border: 1px solid #6d6d72;
+  margin-top: 2em;
+  width: calc(50% - 5px);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px 0px #000;
+  padding-bottom: 27px;
+}
+
+@media only screen and (orientation : landscape) {
+	.swiper-slide {
+		width: calc((100% - 20px) / 3);
+	}
+}
+
+@media only screen and (max-device-width : 667px) {
+	.swiper-slide {
+		width: 100%;
+	}
+}
+
+.swiper-slide span {
+  text-align:center;
+  display:block;
+  margin: 20px;
+  font-size:21px;
+}
+.swiper-container {
+  margin: 0 10px;
+}
+
+
+.swiper-pagination {
+	display: block;
+	margin: 3px auto 0;
+	width: 100%;
+}
+
+.swiper-pagination-bullet {
+	background: #ccc;
+	margin: 0 2px;
+}
+
+h1 {
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+	font-weight: normal;
+}
+
+.paeds-table {
+	width: 100%;
+	padding: 0;
+	border-collapse: collapse;
+	border-top: 1px solid #333;
+}
+
+.vss, .vss+td, .drug, .drug + td {
+	border-bottom: 1px solid #333;
+}
+
+.drug, .vss {
+	padding: 2px 0;
+}
+
+.vss td {
+	padding: 3px 0 !important;
+}
+
+.drug-name {
+	color: white;
+}
+
+.drug-indication {
+	font-size: 0.8em;
+	opacity: 0.8;
+	font-variant: small-caps;
+	text-transform: uppercase;
+}
+
+.drug-dosage {
+	font-size: 0.7em;
+	opacity: 0.4;
+}
+
+.list-section {
+	border-top: 2px solid #555;
+}
+
+.drug-consult,
+.drug-contra {
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+.drug-consult:before {
+	content: "☎️";
+	padding-right: 5px;
+	vertical-align: middle;
+}
+
+.drug-contra:before {
+	content: "🚫";
+	padding-right: 5px;
+	vertical-align: middle;
+}
+
+
+th h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	text-transform: uppercase;
+	transform: rotate(-90deg);
+	padding: 0 !important; margin: 0 !important; 
+}
+
+.row-header {
+	border-right: 1px solid #333;
+	border-bottom: 1px solid #333;
+	padding: 0 !important; margin: 0 !important;
+	max-width: 50px;
+}
+
+.row-full-header {
+	max-width: 30px;
+	background-color: black;
+	border-right: 2px solid #555;
+	background-color: black !important;
+}
+
+.row-full-header-neonate {
+	background-image:url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='500px' width='550px' shape-rendering='crispEdges'><text x='350' y='350' transform='rotate(270 72 400)' fill='grey' font-size='14' style='font-weight: bold; text-transform: uppercase; font-family: -apple-system, San Francisco Display, sans-serif;'>Neonate</text></svg>");
+}
+
+.row-full-header-6mo {
+	background-image:url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='500px' width='550px' shape-rendering='crispEdges'><text x='350' y='350' transform='rotate(270 72 400)' fill='grey' font-size='14' style='font-weight: bold; text-transform: uppercase; font-family: -apple-system, San Francisco Display, sans-serif;'>6 months</text></svg>");
+}
+
+.row-full-header-1 {
+	background-image:url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='500px' width='550px' shape-rendering='crispEdges'><text x='350' y='350' transform='rotate(270 72 400)' fill='grey' font-size='14' style='font-weight: bold; text-transform: uppercase; font-family: -apple-system, San Francisco Display, sans-serif;'>1 year</text></svg>");
+}
+
+.row-full-header-2 {
+	background-image:url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='500px' width='550px' shape-rendering='crispEdges'><text x='350' y='350' transform='rotate(270 72 400)' fill='grey' font-size='14' style='font-weight: bold; text-transform: uppercase; font-family: -apple-system, San Francisco Display, sans-serif;'>2 years</text></svg>");
+}
+
+.row-full-header-3 {
+	background-image:url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='500px' width='550px' shape-rendering='crispEdges'><text x='350' y='350' transform='rotate(270 72 400)' fill='grey' font-size='14' style='font-weight: bold; text-transform: uppercase; font-family: -apple-system, San Francisco Display, sans-serif;'>3 years</text></svg>");
+}
+
+.row-full-header-4 {
+	background-image:url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='500px' width='550px' shape-rendering='crispEdges'><text x='350' y='350' transform='rotate(270 72 400)' fill='grey' font-size='14' style='font-weight: bold; text-transform: uppercase; font-family: -apple-system, San Francisco Display, sans-serif;'>4 years</text></svg>");
+}
+
+.row-full-header-5 {
+	background-image:url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='500px' width='550px' shape-rendering='crispEdges'><text x='350' y='350' transform='rotate(270 72 400)' fill='grey' font-size='14' style='font-weight: bold; text-transform: uppercase; font-family: -apple-system, San Francisco Display, sans-serif;'>5 years</text></svg>");
+}
+
+.row-full-header-6 {
+	background-image:url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='500px' width='550px' shape-rendering='crispEdges'><text x='350' y='350' transform='rotate(270 72 400)' fill='grey' font-size='14' style='font-weight: bold; text-transform: uppercase; font-family: -apple-system, San Francisco Display, sans-serif;'>6 years</text></svg>");
+}
+
+.row-full-header-7 {
+	background-image:url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='500px' width='550px' shape-rendering='crispEdges'><text x='350' y='350' transform='rotate(270 72 400)' fill='grey' font-size='14' style='font-weight: bold; text-transform: uppercase; font-family: -apple-system, San Francisco Display, sans-serif;'>7 years</text></svg>");
+}
+
+.row-full-header-8 {
+	background-image:url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='500px' width='550px' shape-rendering='crispEdges'><text x='350' y='350' transform='rotate(270 72 400)' fill='grey' font-size='14' style='font-weight: bold; text-transform: uppercase; font-family: -apple-system, San Francisco Display, sans-serif;'>8 years</text></svg>");
+}
+
+.row-full-header-9 {
+	background-image:url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='500px' width='550px' shape-rendering='crispEdges'><text x='350' y='350' transform='rotate(270 72 400)' fill='grey' font-size='14' style='font-weight: bold; text-transform: uppercase; font-family: -apple-system, San Francisco Display, sans-serif;'>9 years</text></svg>");
+}
+
+.row-full-header-10 {
+	background-image:url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='500px' width='550px' shape-rendering='crispEdges'><text x='350' y='350' transform='rotate(270 72 400)' fill='grey' font-size='14' style='font-weight: bold; text-transform: uppercase; font-family: -apple-system, San Francisco Display, sans-serif;'>10 years</text></svg>");
+}
+
+.row-full-header-11 {
+	background-image:url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='500px' width='550px' shape-rendering='crispEdges'><text x='350' y='350' transform='rotate(270 72 400)' fill='grey' font-size='14' style='font-weight: bold; text-transform: uppercase; font-family: -apple-system, San Francisco Display, sans-serif;'>11 years</text></svg>");
+}
+
+.row-full-header-12 {
+	background-image:url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='500px' width='550px' shape-rendering='crispEdges'><text x='350' y='350' transform='rotate(270 72 400)' fill='grey' font-size='14' style='font-weight: bold; text-transform: uppercase; font-family: -apple-system, San Francisco Display, sans-serif;'>12 years</text></svg>");
+}
+
+.row-resus-header {
+	background-color: green;
+}
+
+.row-sedation-header {
+	background-color: #a82b2b;
+}
+
+.row-paralysis-header {
+	background-color: #953392;
+}
+
+.row-vss-header, .row-other-header {
+	background-color: #222;
+}
+
+.row-resp-header {
+	background-color: #3062cd;
+}
+
+tr:nth-child(even) {background: #222}
+
+.drug-dose {
+	
+}
+
+.drug-volume {
+	color: #777;
+	font-size: 0.8em;
+}
