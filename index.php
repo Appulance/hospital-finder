@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><?php require "secrets.php"; ?>
 
 <html>
 <head>
@@ -201,6 +201,6 @@
     <script type="text/javascript" src="js/appulance.Address.js"></script>
     <script type="text/javascript" src="js/appulance.Hospital.js"></script>
     <script type="text/javascript" src="js/appulance.Google.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy4vSvwn9v5UIybzEPrcLYoZCR9NtInP4"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<?=GOOGLE_MAPS_API_KEY?>"></script>
 </body>
 </html>
